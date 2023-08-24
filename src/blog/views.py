@@ -4,8 +4,14 @@ from .models import Article
 
 def home(request):
     published_articles = Article.published_articles.all()
-    return render(request, 'blog/home.html', {'articles' : published_articles})
+    context = {
+        'articles' : published_articles
+        }
+    return render(request, 'blog/home.html', context = context)
 
 def single_article(request, article):
     article = get_object_or_404(Article, slug=article, status='published')   
-    return render(request, 'blog/article.html', {'article' : article})
+    context = {
+        'article' : article
+        }
+    return render(request, 'blog/article.html', context = context)
