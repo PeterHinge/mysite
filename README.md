@@ -66,8 +66,6 @@ Use the `BLANK_README.md` to get started.
 <!-- TECH STACK -->
 ### Tech Stack
 
-Tech stack examples.
-
 <img align="left" alt="Python" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 <img align="left" alt="Django" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" />
 <img align="left" alt="Bootstrap" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
@@ -85,18 +83,14 @@ How to get started
 <!-- REQUIREMENTS -->
 ### Requirements
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [!(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg)(https://img.shields.io/pypi/pyversions/Markdown.svg)]
-* [![Django Versions](https://img.shields.io/pypi/pyversions/Markdown.svg)](https://www.djangoproject.com/)
-* [!(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg)[>=5.3]](https://getbootstrap.com/)
+* [![Python Versions](https://img.shields.io/badge/python-3.10-blue)](https://www.python.org/)
+* [![Django Versions](https://img.shields.io/badge/django-4.2-blue)](https://www.djangoproject.com/)
+* [![Bootstrap Versions](https://img.shields.io/badge/bootstrap-5.2-blue)](https://getbootstrap.com/)
 
 Find full in requrements.txt
 
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the reposetory
    ```sh
